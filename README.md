@@ -10,13 +10,16 @@ BomberPi, Raspberry Pi 5 üzerinde Python ve GPIO pinleri kullanılarak gelişti
 * **Skor Sistemi:** 60 saniyelik zaman yarışı.
 
 ## 🛠️ Donanım Listesi
-* Raspberry Pi 5 (veya 4/3)
-* 0.96" OLED Ekran (I2C)
-* Analog Joystick Modülü
-* MCP3008 (ADC Dönüştürücü Çip)
-* RGB LED (Ortak Katot)
-* Pasif Buzzer Modülü
-* Breadboard & Jumper Kablolar
+
+| Bileşen | Görsel | Açıklama |
+| :--- | :---: | :--- |
+| **Raspberry Pi 5** | <img src="images/rpi5.jpg" width="100"> | Projenin beyni. (Pi 3/4 de olur). |
+| **OLED Ekran** | <img src="images/oled.jpeg" width="100"> | 0.96" I2C SSD1306 Ekran. Oyun sahası. |
+| **Analog Joystick** | <img src="images/joystick.jpg" width="100"> | Karakter kontrolü için. |
+| **MCP3008** | <img src="images/mcp3008.jpg" width="100"> | Analog veriyi dijitale çeviren ADC çipi. |
+| **RGB LED** | <img src="images/rgbled.jpg" width="100"> | Durum bildirimleri ve patlama efekti. |
+| **Pasif Buzzer** | <img src="images/pasif_buzzer.jpeg" width="100"> | Ses efektleri ve müzik modülü. |
+| **Breadboard** | <img src="images/breadboard.jpeg" width="100"> | Devre kurulumu için. |
 
 ## 🔌 Bağlantı Şeması (Pinout)
 
