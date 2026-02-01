@@ -43,14 +43,14 @@ cd BomberPi
 
 2. Sanal ortamı kurun ve kütüphaneleri yükleyin:
 
-Bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install adafruit-circuitpython-ssd1306 adafruit-circuitpython-mcp3xxx pillow gpiozero rpi-lgpio
 
 3. Oyunu başlatın:
 
-Bash
+```bash
 python3 bomberpi.py
 
 👨‍💻 Geliştirici
