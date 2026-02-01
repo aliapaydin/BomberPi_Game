@@ -54,4 +54,4 @@ Bash
 python3 bomberpi.py
 
 👨‍💻 Geliştirici
-Geliştirildi: [Senin Adın]
+Geliştirildi: Ali APAYDIN
