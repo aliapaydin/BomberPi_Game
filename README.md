@@ -40,6 +40,7 @@ BomberPi, Raspberry Pi 5 üzerinde Python ve GPIO pinleri kullanılarak gelişti
 ```bash
 git clone [https://github.com/aliapaydin/BomberPi_Game.git](https://github.com/aliapaydin/BomberPi_Game.git)
 cd BomberPi
+````
 
 2. Sanal ortamı kurun ve kütüphaneleri yükleyin:
 
@@ -47,11 +48,13 @@ cd BomberPi
 python3 -m venv .venv
 source .venv/bin/activate
 pip install adafruit-circuitpython-ssd1306 adafruit-circuitpython-mcp3xxx pillow gpiozero rpi-lgpio
+````
 
 3. Oyunu başlatın:
 
 ```bash
 python3 bomberpi.py
+````
 
 👨‍💻 Geliştirici
 Geliştirildi: Ali APAYDIN
